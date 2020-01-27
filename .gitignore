@@ -1,0 +1,14 @@
+.idea/
+.tox/
+build/
+dist/
+venv/
+.pytest_cache/
+__pycache__/
+*.egg-info/
+
+*.pyc
+*.spec
+*.zip
+*.tar.gz
+MANIFEST
