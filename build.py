@@ -32,7 +32,11 @@ def build_package():
     work_path = build_path.joinpath('build')
     build_dist_path = build_path.joinpath('dist')
 
-    _, site_packages_path = site.getsitepackages()
+    site_packages_path = None
+    for path in site.getsitepackages():
+        if Path(path).stem == 'site-packages':
+            site_packages_path = path
+
     items_data = 'd2lib/items_data'
     items_data_path = Path(site_packages_path).joinpath(items_data)
 
