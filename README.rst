@@ -5,6 +5,12 @@ HG502
 HG502 is an application with a graphical user interface that allows you
 to track your progress in the Holy Grail 502 Diablo 2 challenge.
 
+Supported files:
+
+- .d2s - Diablo 2 save files;
+- .d2x - PlugY personal stash files;
+- .sss - PlugY shared stash files.
+
 Features:
 
 - statistics for each item type such as set's and unique items and overall;
