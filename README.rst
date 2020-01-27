@@ -23,3 +23,5 @@ Installation
 Usage
 -----
 It is easy to use just specify the folder with Diablo 2 saves: Open - > Folder.
+
+.. image:: images/main_win.png
