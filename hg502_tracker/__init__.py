@@ -10,7 +10,7 @@ Features:
     - search through lists of items.
 """
 __app_name__ = 'HG502'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 __license__ = 'MIT'
 __author__ = 'Artem Kustov'
 __author_email__ = 'kust.artcom@gmail.com'
