@@ -208,7 +208,12 @@ class HG502(object):
             raise FileNotFoundError
 
         for d2s in d2s_files:
-            self._filter_items(d2s.items)
+            if d2s.items:
+                self._filter_items(d2s.items)
+            if d2s.corpse_items:
+                self._filter_items(d2s.corpse_items)
+            if d2s.merc_items:
+                self._filter_items(d2s.merc_items)
 
         for stash_file in stash_files:
             for page in stash_file.stash:
