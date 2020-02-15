@@ -14,7 +14,7 @@ class FileParseError(Exception):
 class HG502(object):
     """This class retrieves user item data."""
 
-    _QUESTS_UNIQUE = range(123, 129)
+    _QUESTS_UNIQUE = (123, 124, 125, 126, 127, 128, 4095)
     # (die_facet, level_up_facet)
     _FACET_LIGHT = (392, 396)
     _FACET_COLD = (393, 397)
